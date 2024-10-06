@@ -138,10 +138,10 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: '#21728D', // Purple color
+        main: '#21728D', // Ninja Brand color
       },
       secondary: {
-        main: '#88a1ac', // Teal color
+        main: '#88a1ac', // Cement Secondary color
       },
     },
     typography: {
