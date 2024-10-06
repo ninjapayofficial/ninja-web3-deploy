@@ -36,6 +36,8 @@ function App() {
           name: erc20Name,
           symbol: erc20Symbol,
           primary_sale_recipient: address,
+          primary_fee_recipient: address,
+          platform_fee_basis_points: 100 // 1%
         },
         "5.0.2", // Specify the version
         {
