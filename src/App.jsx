@@ -157,7 +157,7 @@ function App() {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="h6" style={{ flexGrow: 1 }}>
-              Ninja Deploy Console
+              NINJA DEPLOY CONSOLE
             </Typography>
             {address ? (
               <Button color="inherit" onClick={disconnect}>
