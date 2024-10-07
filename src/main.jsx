@@ -54,8 +54,10 @@ import { Sepolia } from '@thirdweb-dev/chains';
 // const clientId = process.env.REACT_APP_THIRDWEB_CLIENT_ID;
 // const secretKey = process.env.REACT_APP_THIRDWEB_SECRET_KEY;
 
-const clientId = '690062c61fec9aa02c8f0d8d84e2dc99';
-const secretKey = 'WA7-QDoWghPpkIgjmKWtvUGSOgzD9c06_lDqUzcEK50o_9bdGo9u5fGm1aAp7lBRqdxp0fJ74NFRWeIp0ahTiA';
+const clientId = import.meta.env.VITE_APP_THIRDWEB_CLIENT_ID;
+const secretKey = import.meta.env.VITE_APP_THIRDWEB_SECRET_KEY;
+
+
 
 ReactDOM.render(
   <ThirdwebProvider
