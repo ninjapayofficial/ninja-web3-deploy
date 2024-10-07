@@ -46,7 +46,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { ThirdwebProvider } from '@thirdweb-dev/react';
 import { Sepolia } from '@thirdweb-dev/chains';
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 
 
 // dotenv.config();

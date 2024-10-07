@@ -19,8 +19,9 @@ export default [
     },
     settings: { react: { version: '18.3' } },
     env: {
-      "browser": true,
-      "node": true
+      'browser': true,
+      'es6': true,
+      'node': true
     },
     plugins: {
       react,
